@@ -1,7 +1,9 @@
-package com.example.feng.coolweather;
+package com.example.feng.coolweather.util;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+
+import com.example.feng.coolweather.R;
 
 public class MainActivity extends AppCompatActivity {
 

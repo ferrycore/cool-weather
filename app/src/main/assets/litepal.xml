@@ -1,0 +1,11 @@
+<litepal>
+    <dbname value ="coolweather">
+        <version value ="1"/>
+        <list>
+            <mapping class ="com.example.feng.coolweather.db.City"/>
+            <mapping class ="com.example.feng.coolweather.db.Country"/>
+            <mapping class ="com.example.feng.coolweather.db.Province"/>
+
+        </list>
+    </dbname>
+</litepal>
