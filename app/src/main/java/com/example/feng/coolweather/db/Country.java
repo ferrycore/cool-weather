@@ -1,20 +1,22 @@
 package com.example.feng.coolweather.db;
 
+import org.litepal.crud.DataSupport;
+
 /**
  * Created by Feng on 2017/9/2.
  */
 
-public class Country {
+public class Country extends DataSupport {
     private int id;
     private String countryname;
     private String weatherid;
     private int cityid;
 
-    public void setId(int id) {
+    public void setcityid(int id) {
         this.id = id;
     }
 
-    public int getId() {
+    public int getid() {
         return id;
     }
 
@@ -41,4 +43,6 @@ public class Country {
     public void setWeatherid(String weatherid) {
         this.weatherid = weatherid;
     }
+
+
 }
