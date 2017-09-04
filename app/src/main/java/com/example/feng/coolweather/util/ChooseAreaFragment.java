@@ -1,6 +1,5 @@
 package com.example.feng.coolweather.util;
 
-import android.app.ActivityManager;
 import android.app.Fragment;
 import android.app.ProgressDialog;
 import android.os.Bundle;
@@ -12,7 +11,6 @@ import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.ListView;
-import android.widget.ProgressBar;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -202,6 +200,7 @@ public class ChooseAreaFragment extends Fragment{
                             if("province".equals(type)){
                                 queryProvinces();
                             }
+
                             else if("city".equals(type)){
                                 queryCities();
                             }
